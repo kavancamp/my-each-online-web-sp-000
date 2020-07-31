@@ -8,7 +8,7 @@ def my_each(array) # put argument(s) here
   end
 end
 
-my_each(list) {|i| puts "Hello #{i} "}
+my_each(list) {|i| return "Hello #{i} "}
 
 # Use the collection method
 # To make the *return-value* the answer you want
